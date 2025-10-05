@@ -270,4 +270,9 @@ ul li a:hover{
 .login-with a:hover {
   color: #81b4de;         /* warna berubah saat hover */
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
 
